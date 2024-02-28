@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T17:43:52 IST" name="Suite" finished-at="2024-02-28T17:46:15 IST" duration-ms="143527">
+    <groups>
+      <group name="regression">
+        <method signature="TC003.clickenterprises()[pri:1, instance:test_case.TC003@5b247367]" name="clickenterprises" class="test_case.TC003"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC003.clickoffer()[pri:2, instance:test_case.TC003@5b247367]" name="clickoffer" class="test_case.TC003"/>
+        <method signature="TC003.clickcourse()[pri:3, instance:test_case.TC003@5b247367]" name="clickcourse" class="test_case.TC003"/>
+        <method signature="TC003.fillForm()[pri:4, instance:test_case.TC003@5b247367]" name="fillForm" class="test_case.TC003"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-28T17:43:52 IST" name="Test" finished-at="2024-02-28T17:46:15 IST" duration-ms="143527">
+      <class name="test_case.TC003">
+        <test-method is-config="true" signature="getDriver(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC003@5b247367]" started-at="2024-02-28T17:43:53 IST" name="getDriver" finished-at="2024-02-28T17:44:12 IST" duration-ms="19706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method signature="clickenterprises()[pri:1, instance:test_case.TC003@5b247367]" started-at="2024-02-28T17:44:12 IST" name="clickenterprises" finished-at="2024-02-28T17:44:51 IST" duration-ms="38806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickenterprises -->
+        <test-method signature="clickoffer()[pri:2, instance:test_case.TC003@5b247367]" started-at="2024-02-28T17:44:52 IST" name="clickoffer" finished-at="2024-02-28T17:45:25 IST" duration-ms="33532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickoffer -->
+        <test-method signature="clickcourse()[pri:3, instance:test_case.TC003@5b247367]" started-at="2024-02-28T17:45:26 IST" name="clickcourse" finished-at="2024-02-28T17:46:01 IST" duration-ms="34867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcourse -->
+        <test-method signature="fillForm()[pri:4, instance:test_case.TC003@5b247367]" started-at="2024-02-28T17:46:01 IST" name="fillForm" finished-at="2024-02-28T17:46:12 IST" duration-ms="11172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_case.TC003@5b247367]" started-at="2024-02-28T17:46:13 IST" name="tearDown" finished-at="2024-02-28T17:46:15 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_case.TC003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
