@@ -27,7 +27,7 @@ Search and display all web development courses
 
 # Steps To Execute
 
-- unzip the folder
+- Unzip the folder
 - On eclipse, goto file-> import-> select maven-> click on existing maven project->next-> browse the location where u unzip the folder-> click on finish
 - Now go to the testng.xml file and run as TestNGSuite.
 - Now the file will Execute and we get the expected output as shown below.
