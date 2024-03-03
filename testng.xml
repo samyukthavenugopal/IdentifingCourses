@@ -9,8 +9,8 @@
 <parameter name="browser" value="chrome"/>
 <classes>
 
-<!-- <class name="test_case.TC001"></class>
-<class name="test_case.TC002"></class>-->
+<class name="test_case.TC001"></class>
+<class name="test_case.TC002"></class>
 <class name="test_case.TC003"></class>
 
 </classes>
