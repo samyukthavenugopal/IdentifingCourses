@@ -52,7 +52,7 @@ public class Module1 extends BasePage{
 //			beginner.click();
 		}
 
-		@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-1sktkql'])[1]")
+		@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-6ecy9b'])[1]")
 		WebElement course1;
 
 		public void clickCourse1() {
@@ -96,7 +96,7 @@ public class Module1 extends BasePage{
 		}
 
 
-		@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-1sktkql'])[2]")
+		@FindBy(xpath="(//h3[@class='cds-CommonCard-title css-6ecy9b'])[2]")
 		WebElement course2;
 
 		public void clickCourse2() {
